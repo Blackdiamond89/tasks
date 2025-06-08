@@ -1,6 +1,6 @@
 services:
   planka:
-    image: ghcr.io/plankanban/planka:2.0.0-rc.2
+    image: ghcr.io/Blackdiamond89/tasks:2.0.0-rc.2
     restart: on-failure
     volumes:
       - favicons:/app/public/favicons

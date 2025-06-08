@@ -9,10 +9,10 @@
   }
 
   .button {
-    background: rgba(0, 0, 0, 0.24);
-    border: none;
-    border-radius: 3px;
-    color: rgba(255, 255, 255, 0.72);
+    background: #fff;
+    border-color: #ddd;
+    border-width: thin;
+    color: #172b4d;
     cursor: pointer;
     display: inline-block;
     font-size: 13px;
@@ -22,7 +22,8 @@
     width: 43px;
 
     &:hover {
-      background: rgba(0, 0, 0, 0.32);
+      background: #c0c0c0;
+      color: #fff;
     }
   }
 
@@ -31,21 +32,23 @@
       border-radius: 0;
 
       &:enabled {
-        background: rgba(0, 0, 0, 0.08);
+        background: #c0c0c0;
+        color: #fff;
 
         &:hover {
-          background: rgba(0, 0, 0, 0.12);
+          background: #c0c0c0;
+          color: #fff;
         }
       }
 
       &:first-child {
-        border-top-left-radius: 3px;
-        border-bottom-left-radius: 3px;
+        border-top-left-radius: 1px;
+        border-bottom-left-radius: 1px;
       }
 
       &:last-child {
-        border-top-right-radius: 3px;
-        border-bottom-right-radius: 3px;
+        border-top-right-radius: 1px;
+        border-bottom-right-radius: 1px;
       }
     }
   }

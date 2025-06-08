@@ -136,7 +136,7 @@ const AddProjectModal = React.memo(() => {
           />
           <Button
             inverted
-            color="green"
+            color="dark-blue"
             icon="checkmark"
             content={t('action.createProject')}
             loading={isSubmitting}
